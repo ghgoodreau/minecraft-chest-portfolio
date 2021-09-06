@@ -27,7 +27,6 @@ img {
   -khtml-user-drag: none;
   -moz-user-drag: none;
   -o-user-drag: none;
-  user-drag: none;
 }
 
 body {
@@ -83,6 +82,21 @@ body {
     }
     .bottom {
       padding: 10px 20px 20px 20px;
+      margin-bottom: 30px;
+    }
+    .connect-links {
+      img {
+        margin: 10px;
+        padding-top: 5px;
+      }
+      padding-bottom: 10px;
+    }
+    .tech-stack {
+      img {
+        margin: 10px;
+        padding-top: 5px;
+      }
+      padding-bottom: 20px;
     }
     .header {
       display: flex;

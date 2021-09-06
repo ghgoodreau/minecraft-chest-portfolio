@@ -51,7 +51,8 @@ const App = () => {
       <Canvas
         colorManagement
         shadowMap
-        camera={{ position: [-5, 4, 4], fov: 40 }}>
+        camera={{ position: [-5, 4, 4], fov: 40 }}
+      >
         <Lights />
         <Suspense fallback={null}>
           <Model open={open} setOpen={setOpen} />
